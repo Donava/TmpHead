@@ -10,4 +10,6 @@
 
 @interface TmpHead : NSObject
 
+- (void) show;
+
 @end

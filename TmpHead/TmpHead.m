@@ -9,5 +9,7 @@
 #import "TmpHead.h"
 
 @implementation TmpHead
-
+- (void)show {
+    NSLog(@"show from TmpHead");
+}
 @end
