@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "TmpHead"
-  s.version      = "1.1.0"
-  s.summary      = "A short description of TmpHead."
+  s.version      = "1.1.1"
+  s.summary      = "Test TmpHead."
 
   s.description  = <<-DESC
                    A longer description of TmpHead in Markdown format.
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
                    * Finally, don't worry about the indent, CocoaPods strips it!
                    DESC
 
-  s.homepage     = "http://1024j.com/TmpHead"
+  s.homepage     = "http://www.sdkbus.com"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -39,8 +39,8 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "BSD"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  # s.license      = "BSD"
+  s.license      = { :type => "BSD", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/Donava/TmpHead.git", :tag => "1.1.0" }
+  s.source       = { :git => "https://github.com/Donava/TmpHead.git", :tag => "1.1.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -89,7 +89,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  s.source_files  = "Classes", "Classes/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"

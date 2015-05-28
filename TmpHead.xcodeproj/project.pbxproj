@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F63FF6831B173BD700394DD6 /* TmpHead.m in Sources */ = {isa = PBXBuildFile; fileRef = F63FF6821B173BD700394DD6 /* TmpHead.m */; };
+		F67708001B174159008E7CE7 /* TmpHead.m in Sources */ = {isa = PBXBuildFile; fileRef = F67707FF1B174159008E7CE7 /* TmpHead.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,8 +24,8 @@
 
 /* Begin PBXFileReference section */
 		F63FF6661B17399000394DD6 /* libTmpHead.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTmpHead.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		F63FF6811B173BD700394DD6 /* TmpHead.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TmpHead.h; path = Classes/TmpHead.h; sourceTree = "<group>"; };
-		F63FF6821B173BD700394DD6 /* TmpHead.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TmpHead.m; path = Classes/TmpHead.m; sourceTree = "<group>"; };
+		F67707FE1B174159008E7CE7 /* TmpHead.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TmpHead.h; sourceTree = "<group>"; };
+		F67707FF1B174159008E7CE7 /* TmpHead.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TmpHead.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +42,7 @@
 		F63FF65D1B17399000394DD6 = {
 			isa = PBXGroup;
 			children = (
-				F63FF6681B17399000394DD6 /* TmpHead */,
+				F67707FD1B174159008E7CE7 /* Classes */,
 				F63FF6671B17399000394DD6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,21 +55,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F63FF6681B17399000394DD6 /* TmpHead */ = {
+		F67707FD1B174159008E7CE7 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				F63FF6801B173BC300394DD6 /* Classes */,
+				F67707FE1B174159008E7CE7 /* TmpHead.h */,
+				F67707FF1B174159008E7CE7 /* TmpHead.m */,
 			);
-			path = TmpHead;
-			sourceTree = "<group>";
-		};
-		F63FF6801B173BC300394DD6 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				F63FF6811B173BD700394DD6 /* TmpHead.h */,
-				F63FF6821B173BD700394DD6 /* TmpHead.m */,
-			);
-			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,7 +120,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F63FF6831B173BD700394DD6 /* TmpHead.m in Sources */,
+				F67708001B174159008E7CE7 /* TmpHead.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
