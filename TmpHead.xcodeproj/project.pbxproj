@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F63FF66A1B17399000394DD6 /* TmpHead.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F63FF6691B17399000394DD6 /* TmpHead.h */; };
-		F63FF66C1B17399000394DD6 /* TmpHead.m in Sources */ = {isa = PBXBuildFile; fileRef = F63FF66B1B17399000394DD6 /* TmpHead.m */; };
+		F63FF6831B173BD700394DD6 /* TmpHead.m in Sources */ = {isa = PBXBuildFile; fileRef = F63FF6821B173BD700394DD6 /* TmpHead.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -18,7 +17,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				F63FF66A1B17399000394DD6 /* TmpHead.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -26,8 +24,8 @@
 
 /* Begin PBXFileReference section */
 		F63FF6661B17399000394DD6 /* libTmpHead.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTmpHead.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		F63FF6691B17399000394DD6 /* TmpHead.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TmpHead.h; sourceTree = "<group>"; };
-		F63FF66B1B17399000394DD6 /* TmpHead.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TmpHead.m; sourceTree = "<group>"; };
+		F63FF6811B173BD700394DD6 /* TmpHead.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TmpHead.h; path = Classes/TmpHead.h; sourceTree = "<group>"; };
+		F63FF6821B173BD700394DD6 /* TmpHead.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TmpHead.m; path = Classes/TmpHead.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +58,18 @@
 		F63FF6681B17399000394DD6 /* TmpHead */ = {
 			isa = PBXGroup;
 			children = (
-				F63FF6691B17399000394DD6 /* TmpHead.h */,
-				F63FF66B1B17399000394DD6 /* TmpHead.m */,
+				F63FF6801B173BC300394DD6 /* Classes */,
 			);
 			path = TmpHead;
+			sourceTree = "<group>";
+		};
+		F63FF6801B173BC300394DD6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F63FF6811B173BD700394DD6 /* TmpHead.h */,
+				F63FF6821B173BD700394DD6 /* TmpHead.m */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,7 +128,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F63FF66C1B17399000394DD6 /* TmpHead.m in Sources */,
+				F63FF6831B173BD700394DD6 /* TmpHead.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +246,7 @@
 				F63FF67C1B17399000394DD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
